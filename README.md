@@ -2,5 +2,5 @@
 
 ## Cài đặt 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Quoctai020901/tuanhoang/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Quoctai0209/tuanhoang/main/install.sh)
 ```

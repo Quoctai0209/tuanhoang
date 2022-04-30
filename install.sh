@@ -93,8 +93,8 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "https://4g.giare.me"
-      ApiKey: "phamvanquoctai0209"
+      ApiHost: "https://4gviettel.shop"
+      ApiKey: "chongthamhuyhoang123"
       NodeID: 41
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request

@@ -21,13 +21,13 @@ pre_install() {
   echo -e "[3] 4gviettel.xyz"
   read -p "Web đang sử dụng:" ApiHost
   if [ "$ApiHost" == "1" ]; then
-    api_host="https://vt4g.com"
+    ApiHost="https://vt4g.com"
   elif [ "$ApiHost" == "2" ]; then
-    api_host="https://4gviettel.shop"
+    ApiHost="https://4gviettel.shop"
     elif [ "$ApiHost" == "3" ]; then
-    api_host="https://4gviettel.xyz"
+    ApiHost="https://4gviettel.xyz"
   else 
-    api_host="https://vt4g.com"
+    ApiHost="https://vt4g.com"
   fi
 
   echo "--------------------------------"

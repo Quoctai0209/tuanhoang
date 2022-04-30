@@ -19,19 +19,19 @@ pre_install() {
  echo -e "[1] vt4g.com"
   echo -e "[2] 4gviettel.shop"
   echo -e "[3] 4gviettel.xyz"
-  read -p "Web đang sử dụng:" api_host
-  if [ "$api_host" == "1" ]; then
+  read -p "Web đang sử dụng:" ApiHost
+  if [ "$ApiHost" == "1" ]; then
     api_host="https://vt4g.com"
-  elif [ "$api_host" == "2" ]; then
+  elif [ "$ApiHost" == "2" ]; then
     api_host="https://4gviettel.shop"
-    elif [ "$api_host" == "3" ]; then
+    elif [ "$ApiHost" == "3" ]; then
     api_host="https://4gviettel.xyz"
   else 
     api_host="https://vt4g.com"
   fi
 
   echo "--------------------------------"
-  echo "Bạn đã chọn ${api_host}"
+  echo "Bạn đã chọn ${ApiHost}"
   echo "--------------------------------"
   
 
